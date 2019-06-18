@@ -11,7 +11,7 @@ import { Helmet } from 'react-helmet'; // MEDIUM Value library
 import styled from 'styled-components'; // GARBAGE that should be replaced - css-in-js is an abomination
 import { Switch, Route } from 'react-router-dom'; // HIGH VALUE library - excellent documentation
 
-import HomePage from 'containers/HomePage/Loadable'; 
+import HomePage from 'containers/HomePage/Loadable';
 import FeaturePage from 'containers/FeaturePage/Loadable';
 import ScorePage from 'containers/ScorePage/Loadable';
 import NotFoundPage from 'containers/NotFoundPage/Loadable';
@@ -19,6 +19,7 @@ import Header from 'components/Header';
 import Footer from 'components/Footer';
 
 import GlobalStyle from '../../global-styles';
+import '../../css/styles.scss';
 
 const AppWrapper = styled.div`
   max-width: calc(768px + 16px * 2);

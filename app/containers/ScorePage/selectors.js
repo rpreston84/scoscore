@@ -10,5 +10,5 @@ const selectScore = state => state.score || initialState;
 export const makeSelectRating = () =>
   createSelector(
     selectScore,
-    ({rating}) => rating,
+    ({ rating }) => rating,
   );

@@ -5,7 +5,7 @@
  */
 import { defineMessages } from 'react-intl';
 
-export const scope = 'boilerplate.containers.FeaturePage';
+export const scope = 'boilerplate.containers.ScorePage';
 
 export default defineMessages({
   header: {
@@ -14,6 +14,6 @@ export default defineMessages({
   },
   rating: {
     id: `${scope}.rating`,
-    defaultMessage: 'How hot is it?'
-  }
+    defaultMessage: 'How hot is it?',
+  },
 });

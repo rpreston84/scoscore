@@ -12,6 +12,10 @@ export default defineMessages({
     id: `${scope}.header`,
     defaultMessage: 'Features',
   },
+  score: {
+    id: `${scope}.score`,
+    defaultMessage: 'Score',
+  },
   scaffoldingHeader: {
     id: `${scope}.scaffolding.header`,
     defaultMessage: 'Quick scaffolding',
