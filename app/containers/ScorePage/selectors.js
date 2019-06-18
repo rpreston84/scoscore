@@ -5,7 +5,7 @@
 import { createSelector } from 'reselect';
 import { initialState } from './reducer';
 
-const selectScore = state => state.score || initialState;
+const selectScore = ({ score }) => score || initialState;
 
 export const makeSelectRating = () =>
   createSelector(
